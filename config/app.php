@@ -149,7 +149,8 @@ return [
         'Illuminate\Html\HtmlServiceProvider',
         'Laracasts\Flash\FlashServiceProvider',
         'Mitul\Generator\GeneratorServiceProvider',
-
+        'Barryvdh\DomPDF\ServiceProvider',
+        'Collective\Html\HtmlServiceProvider',
 	],
 
 	/*
@@ -200,7 +201,9 @@ return [
 		'Form'  => 'Illuminate\Html\FormFacade',
         'HTML'  => 'Illuminate\Html\HtmlFacade',
         'Flash' => 'Laracasts\Flash\Flash',
-
+        'PDF'   => 'Barryvdh\DomPDF\Facade',
+        'Form' => 'Collective\Html\FormFacade',
+        'Html' => 'Collective\Html\HtmlFacade',
 	],
 
 ];
